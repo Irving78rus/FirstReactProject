@@ -1,0 +1,25 @@
+.header {
+    display: grid;
+    grid-area: h;
+    background-color: #ff5600;
+}
+
+.img {
+    width: 60px;
+}
+
+.list {
+    display: grid;
+    align-items: center;
+    grid-column: 2/2;
+    grid-auto-flow: column;
+}
+
+.a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: #da9168;
+}
